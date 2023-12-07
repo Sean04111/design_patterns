@@ -14,7 +14,7 @@ public class FactoryA implements Factory{
        }
 
    }
-   public Factory.FactoryA.ProductA Produce(){
+   public ProductA Produce(){
        return new ProductA("productA", this.FactoryName);
    }
 }
