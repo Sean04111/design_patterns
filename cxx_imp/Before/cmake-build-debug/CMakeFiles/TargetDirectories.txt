@@ -1,3 +1,0 @@
-/Users/sean/Workspace/java_workshop/design_patterns/cxx_imp/Before/cmake-build-debug/CMakeFiles/main.dir
-/Users/sean/Workspace/java_workshop/design_patterns/cxx_imp/Before/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/sean/Workspace/java_workshop/design_patterns/cxx_imp/Before/cmake-build-debug/CMakeFiles/rebuild_cache.dir
