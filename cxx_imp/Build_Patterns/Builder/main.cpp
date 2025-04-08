@@ -47,8 +47,11 @@ void build_pc_without_builder() {
     gpu.with_model("RTX5090");
     gpu.set_mount();
     gpu.with_three_fans();
-
-    PC computer{cpu, gpu, ram};
+    /*
+     * 因为隐藏了构造函数，所以不可用
+     */
+    // PC computer{cpu, gpu, ram};
+    // PC ai{};
 }
 
 int main() {

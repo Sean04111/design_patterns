@@ -94,22 +94,15 @@ class PC {
     CPU _cpu;
     GPU _gpu;
     RAM _ram;
-public:
-    PC(){}
     /*
-     *一种方式是直接通过传入的组件进行赋值，然后组装
-     * 这种方式相当麻烦：
-     * 例如，如果不同磁盘的组装方式不同（例如机械硬盘和固态硬盘），那么对于 pc 的组装过程就比较分散，
-     * 具体可以看 main.cpp 中使用构造函数来组装 pc 的过程
-     * 这种方式的灵活度太低，也太蠢；
+     *这里通过隐藏构造函数来强制用户使用构造器来构造
      */
-    PC(CPU& cpu, GPU& graphics, RAM& memory)
-        : _cpu(cpu),
-        _gpu(graphics),
-        _ram(memory){
-    }
+    PC(){}
+public:
 
     static PCBuilder create();
+
+    friend class PCBuilder;
     friend class CPUBuilder;
     friend class GPUBuilder;
     friend class RAMBuilder;
