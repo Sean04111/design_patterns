@@ -5,6 +5,6 @@ set (CMAKE_CXX_STANDARD_REQUIRED ON)
 project(Factory)
 
 add_executable(
-        main
+        Factory
         main.cpp
 )

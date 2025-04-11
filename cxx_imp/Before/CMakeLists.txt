@@ -5,7 +5,7 @@ set (CMAKE_CXX_STANDARD_REQUIRED ON)
 project(Before)
 
 add_executable(
-        main
+        Before
         main.cpp
         CRTP.cpp
         Mixin.cpp

@@ -5,7 +5,7 @@ set (CMAKE_CXX_STANDARD_REQUIRED ON)
 project(Prototype)
 
 add_executable(
-        main
+        Prototype
         main.cpp
         Contact.hpp
         Cars.hpp

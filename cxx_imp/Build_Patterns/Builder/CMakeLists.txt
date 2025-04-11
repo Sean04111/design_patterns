@@ -5,9 +5,8 @@ set (CMAKE_CXX_STANDARD_REQUIRED ON)
 project(Builder)
 
 add_executable(
-        main
+        Builder
         main.cpp
         Person.hpp
         Pc.hpp
-
 )
