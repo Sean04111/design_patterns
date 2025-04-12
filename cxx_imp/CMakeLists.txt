@@ -7,3 +7,6 @@ add_subdirectory(Build_Patterns/Builder)
 add_subdirectory(Build_Patterns/Factory)
 add_subdirectory(Build_Patterns/Prototype)
 add_subdirectory(Build_Patterns/Singleton)
+
+add_subdirectory(Structrual_Patterns/Adapter)
+add_subdirectory(Structrual_Patterns/Bridge)
