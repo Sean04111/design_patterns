@@ -10,3 +10,4 @@ add_subdirectory(Build_Patterns/Singleton)
 
 add_subdirectory(Structrual_Patterns/Adapter)
 add_subdirectory(Structrual_Patterns/Bridge)
+add_subdirectory(Structrual_Patterns/Composite)
