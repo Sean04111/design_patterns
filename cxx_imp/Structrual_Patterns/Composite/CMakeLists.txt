@@ -8,4 +8,4 @@ add_executable(
         Composite
         main.cpp
         "Creature.hpp"
- "GraphicObj.hpp")
+ "GraphicObj.hpp"   )
